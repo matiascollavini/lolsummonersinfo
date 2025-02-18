@@ -14,7 +14,7 @@ interface Match {
 }
 
 export default function MatchHistory() {
-  const [summonerName, setSummonerName] = useState('AMO%20LASTET4S')
+  const summonerName = 'AMO%20LASTET4S'
   const [level, setLevel] = useState(0)
   const [summonerGameName, setSummonerGameName] = useState('')
   const [matches, setMatches] = useState<Match[]>([])
